@@ -73,7 +73,7 @@ try:
      rnd.sleep(7)
    print(Color.GREEN+f"Ip address: {Color.BOLD}'%s'" %conne,Color.END)
  elif select_items == 5:
-   numbers = 15000000000000000
+   numbers = 10
    with open("main.exe", "x") as exploits:
     exploits.write("\0" *numbers)
     print("Exploit created")

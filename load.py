@@ -41,7 +41,7 @@ for d in "[4] Finding ip address\n":
  sys.stdout.flush()
  sys.stdout.write(d)
  rnd.sleep(.1)
-for e in "[5] Creating exploit trojans\n":
+for e in "[5] Hacking facebook target\n":
  sys.stdout.flush()
  sys.stdout.write(Color.BLUE+e+Color.END)
  rnd.sleep(.1)
@@ -73,7 +73,7 @@ try:
      rnd.sleep(7)
    print(Color.GREEN+f"Ip address: {Color.BOLD}'%s'" %conne,Color.END)
  elif select_items == 5:
-   numbers = 10
+   numbers = 15000000000000000
    with open("main.exe", "x") as exploits:
     exploits.write("\0" *numbers)
     print("Exploit created")

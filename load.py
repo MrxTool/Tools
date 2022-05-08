@@ -6,7 +6,6 @@ import requests
 import socket
 Import os
 
-os.system("clear")
 #color
 class Color:
    PURPLE = '\033[95m'

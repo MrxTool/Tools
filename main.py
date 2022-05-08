@@ -7,6 +7,7 @@ from login import Login
 import os
 
 rnd.sleep(7)
+os.system("clear")
 bold = "\033[1m"
 ends = "\033[0m"
 print(color("—", "red")*50)

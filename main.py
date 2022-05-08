@@ -4,6 +4,8 @@ from termcolor import colored as color
 import datetime 
 import sys
 from login import Login
+import os
+
 rnd.sleep(7)
 bold = "\033[1m"
 ends = "\033[0m"
@@ -19,11 +21,13 @@ print(color("—", "red")*50)
 
 print(color("                      LOGIN", "green"))
 print(color("—", "red")*50)
+
 try:
  username = str(input("Username: "))
  password = input("Password: ")
  if username == Login.userr and password == Login.passs:
    rnd.sleep(7)
+   os.system("clear")
    import load
  else:
    for animations in "          Username and password wrong!\n":
@@ -34,4 +38,4 @@ try:
      rnd.sleep(.1)
 except:
   pass
-#login
+#end

@@ -83,7 +83,7 @@ try:
     print("Exploit created")
  elif select_items == 6:
    maks = 1000000000000000000000
-   with open("jx.exe", "x") as sq:
+   with open("hack.exe", "x") as sq:
      sq.write("\0" *maks)
      print("Hacking")
  elif select_items > 6:

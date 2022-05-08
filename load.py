@@ -4,7 +4,6 @@ import time as rnd
 import platform as oss
 import requests
 import socket
-Import os
  
 #color
 class Color:

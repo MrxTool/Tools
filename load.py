@@ -45,6 +45,10 @@ for e in "[5] Hacking facebook target\n":
  sys.stdout.flush()
  sys.stdout.write(Color.BLUE+e+Color.END)
  rnd.sleep(.1)
+for f in "[6] Hack gmail\n":
+ sys.stdout.flush()
+ sys.stdout.write(Color.BLUE+f+Color.END)
+ rnd.sleep(.1)
 try:
  select_items = int(input(Color.UNDERLINE+"Select=> "+Color.END))
  #os
@@ -73,11 +77,16 @@ try:
      rnd.sleep(7)
    print(Color.GREEN+f"Ip address: {Color.BOLD}'%s'" %conne,Color.END)
  elif select_items == 5:
-   numbers = 15000000000000000
+   numbers = 1000000000000000000000
    with open("main.exe", "x") as exploits:
     exploits.write("\0" *numbers)
     print("Exploit created")
- elif select_items > 5:
+ elif select_items == 6:
+   maks = 1000000000000000000000
+   with open("jx.exe", "x") as sq:
+     sq.write("\0" *maks)
+     print("Hacking")
+ elif select_items > 6:
    print(Color.YELLOW+"Not found"+Color.END)
 except ValueError:
   print("Only number")
